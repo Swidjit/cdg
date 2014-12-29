@@ -27,7 +27,8 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 gem 'haml'
-gem 'monologue'
+gem "monologue", github: "jipiboily/monologue"
+gem 'contact_us', '~> 0.5.1'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
@@ -40,4 +41,6 @@ gem 'monologue'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-
+group :production do
+  gem 'rails_12factor'
+end
