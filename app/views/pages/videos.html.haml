@@ -1,0 +1,8 @@
+#main
+  #image
+    = image_tag('header.png', :class => 'centered-header')
+    =link_to "watch a video", "http://www.youtu.be/rSRis_RLd1k", :class => 'fancybox-media', :rel => 'media-gallery'
+  #content
+    %h3 Videos
+    %p click on any to play
+    %ul.youtube-video-gallery{:style=>"padding-left: 15px;"}
