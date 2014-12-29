@@ -21,7 +21,7 @@
 $(document).ready(function(){
 	$('#navigation').slimmenu(
 	{
-	    resizeWidth: '800',
+	    resizeWidth: '479',
 	    collapserTitle: 'CrazyDancingGuy',
 	    animSpeed: 'medium',
 	    easingEffect: null,
