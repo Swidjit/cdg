@@ -1,0 +1,18 @@
+.post-header a {
+
+	color: #79AE92;
+
+}
+.post-header h1 {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	.button {
+		color: #79AE92;
+	}
+}
+a.button {
+	color: #79AE92;
+}
+.posted span {
+	font-size: 10px;
+}

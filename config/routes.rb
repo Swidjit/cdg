@@ -2,6 +2,7 @@ Rails.application.routes.draw do
 
   root :to => 'pages#home'
   get 'pages/:page_name' => 'pages#index', :as => :pages
+  mount Monologue::Engine, at: '/blog'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
